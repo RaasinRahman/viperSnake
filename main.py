@@ -8,7 +8,7 @@ class Snake:
 
         self.body = [Vector2(5, 10), Vector2(4, 10), Vector2(3, 10)] #Creating a 2d object
         self.direction = Vector2(0, 0) #Setting the starting direction of the snake
-        self.new_block = False #New block will start as False and become True whenever the snake eats an apple
+        self.new_block = False #new_block will start as False and become True whenever the snake eats an apple
         self.crunch_sound = pygame.mixer.Sound('attributes/crunch.wav') #Setting the sound for when the snake eats an apple
 
     def spawn(self):
